@@ -1,0 +1,53 @@
+html, body, app-root {
+  height: 100%;
+}
+.flex-layout {
+  height: 100%;
+}
+md-sidenav-container {
+  background-color: #00796B;
+  height: 100%;
+}
+md-sidenav-container {
+  height: 75px;
+}
+.btnToolbar {
+  margin-top: 15px;
+}
+md-sidenav{
+  height: 100%;
+  width: 350px;
+}
+h1 {
+  color: #009688;
+  font-size: 38px;
+}
+i {
+  color: #ffffff;
+  font-size: 38px;
+}
+.navLink {
+  width: 100%;
+  height: 65px;
+  font-size: 25px;
+}
+.navLink a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #009688;
+  font-weight: 500;
+}
+.title {
+  text-align: center;
+  height: 250px;
+  margin-top: 100px;
+}
+.title h2 {
+  font-size: 45px;
+  letter-spacing: 15px;
+}
+.title h4 {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}

@@ -1,0 +1,33 @@
+<div class="flex-layout">
+  <md-sidenav #sidenav style="height: 100%;background-color: #212121">
+    <div style="border-bottom: 2px solid #ffffff; padding: 0 15px 0 15px; ">
+    <h1 md-subheader>Portfolio</h1>
+      <span fxFlex></span>
+      <button md-button class="closeNav" disabl (click)="sidenav.close()" style="margin-top: 3px;">
+        <i ng-font-set="material-icons" class="material-icons md-48">close</i>
+      </button>
+    </div>
+    <button class="navLink" md-button fxLayoutAlign="start" (click)="sidenav.close()"><a [routerLink]="['/home']">Home</a></button>
+  </md-sidenav>
+  <md-sidenav-container>
+    <!-- Sidenav is locked open for all devices other than mobile -->
+
+    <div>
+  <button class="btnToolbar" md-button (click)="sidenav.open()">
+    <i ng-font-set="material-icons" class="material-icons md-48 md-light">menu</i>
+  </button>
+    <span fxFlex></span>
+
+  <button class="btnToolbar" md-button>
+    <i ng-font-set="material-icons" class="material-icons md-48 md-light">person_outline</i>
+  </button>
+</div>
+  </md-sidenav-container>
+  <div class="title">
+    <h2 fxLayout="column">Timothy Cluff</h2>
+    <div style="width: 40%; height: 2px; border: 1px solid #212121; margin-left: 30%;margin-right: 30%;
+      background-color: #212121"></div>
+    <h4 fxLayout="column">Software Developer</h4>
+  </div>
+</div>
+<router-outlet></router-outlet>
