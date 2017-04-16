@@ -1,0 +1,27 @@
+.flex-layout {
+  height: 100%;
+}
+md-sidenav-container {
+  height: 100%;
+}
+md-sidenav {
+  width: 300px;
+  height: 100%;
+}
+.nav-header {
+  border-bottom: 2px solid #ffffff;
+}
+.nav-header h1 {
+  color: #009688;
+  margin-left: 15px;
+}
+md-toolbar {
+  background-color: #009688;
+}
+.nav-item {
+  font-size: 30px;
+  color: #009688;
+}
+.router-link-active {
+  background-color: rgba(189,189,189,.6);
+}

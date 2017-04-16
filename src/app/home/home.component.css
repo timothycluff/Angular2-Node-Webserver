@@ -4,38 +4,13 @@ html, body, app-root {
 .flex-layout {
   height: 100%;
 }
-md-sidenav-container {
-  background-color: #00796B;
-  height: 100%;
-}
-md-sidenav-container {
-  height: 75px;
-}
-.btnToolbar {
-  margin-top: 15px;
-}
-md-sidenav{
-  height: 100%;
-  width: 350px;
-}
-h1 {
-  color: #009688;
-  font-size: 38px;
-}
-i {
-  color: #ffffff;
-  font-size: 38px;
-}
-.navLink {
-  width: 100%;
-  height: 65px;
-  font-size: 25px;
-}
-.navLink a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #009688;
-  font-weight: 500;
+.divider {
+  width: 40%;
+  height: 2px;
+  border: 1px solid #212121;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #212121;
 }
 .title {
   text-align: center;

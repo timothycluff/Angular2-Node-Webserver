@@ -1,5 +1,110 @@
-<div style="height: 100%">
-  <div class="router" style="height: 100%">
-    <router-outlet></router-outlet>
+<div class="flex-layout">
+<md-sidenav-container>
+  <md-toolbar>
+      <button class="btn-toolbar" md-button (click)="sidenav.open()">
+        <i ng-font-set="material-icons" class="material-icons md-48 md-light">menu</i>
+      </button>
+      <span fxFlex></span>
+      <button class="btn-toolbar" md-button [routerLink]="['home']">
+        <i ng-font-set="material-icons" class="material-icons md-48 md-light">person_outline</i>
+      </button>
+  </md-toolbar>
+<md-sidenav #sidenav style="height: 100%;background-color: #212121">
+  <div class="nav-menu">
+    <div class="nav-header" fxLayout="row">
+      <h1 md-subheader>Portfolio</h1>
+      <span fxFlex></span>
+      <button md-button class="close-nav" (click)="sidenav.close()">
+        <i ng-font-set="material-icons" class="material-icons md-38 md-light">close</i>
+      </button>
+    </div>
+    <div fxLayout="row" fxFlexFill>
+      <md-list fxLayout="column" fxFlexFill>
+        <!-- Link to home within sidenav -->
+        <md-list-item>
+          <button fxFlexFill md-button
+                  (click)="sidenav.close()"
+                  fxLayoutAlign="start"
+                  class="nav-item"
+                  id="nav-home"
+                  [routerLink]="['home']" routerLinkActive="router-link-active">
+            <i ng-font-set="material-icons" class="material-icons md-light">home</i>
+            <span class="nav-text">Home</span>
+          </button>
+        </md-list-item>
+        <br/>
+        <!-- Link to profile within sidenav -->
+        <md-list-item>
+          <button fxFlexFill md-button
+                  (click)="sidenav.close()"
+                  class="nav-item"
+                  id="nav-profile"
+                  fxLayoutAlign="start"
+                  [routerLink]="['profile']" routerLinkActive="router-link-active">
+            <i ng-font-set="material-icons" class="material-icons md-light">person</i>
+            <span class="nav-text">Profile</span>
+          </button>
+        </md-list-item>
+        <br/>
+        <!-- Link to experience within sidenav -->
+        <md-list-item>
+          <button fxFlexFill md-button
+                  (click)="sidenav.close()"
+                  class="nav-item"
+                  id="nav-experience"
+                  fxLayoutAlign="start"
+                  [routerLink]="['experience']" routerLinkActive="router-link-active">
+            <i ng-font-set="material-icons" class="material-icons md-light">verified_user</i>
+            <span class="nav-text">Experience</span>
+          </button>
+        </md-list-item>
+        <br/>
+        <!-- Link to technology within sidenav -->
+        <md-list-item>
+          <button fxFlexFill md-button
+                  (click)="sidenav.close()"
+                  class="nav-item"
+                  id="nav-technology"
+                  fxLayoutAlign="start"
+                  [routerLink]="['technology']" routerLinkActive="router-link-active">
+            <i ng-font-set="material-icons" class="material-icons md-light">layers</i>
+            <span class="nav-text">Technology</span>
+          </button>
+        </md-list-item>
+        <br/>
+        <!-- Link to education within sidenav -->
+        <md-list-item>
+          <button fxFlexFill md-button
+                  (click)="sidenav.close()"
+                  class="nav-item"
+                  id="nav-education"
+                  fxLayoutAlign="start"
+                  [routerLink]="['education']" routerLinkActive="router-link-active">
+            <i ng-font-set="material-icons" class="material-icons md-light">school</i>
+            <span class="nav-text">Education</span>
+          </button>
+        </md-list-item>
+        <br/>
+        <!-- Link to connect within sidenav -->
+        <md-list-item>
+
+          <button fxFlexFill md-button
+                  (click)="sidenav.close()"
+                  class="nav-item"
+                  id="nav-connect"
+                  fxLayoutAlign="start"
+                  [routerLink]="['connect']" routerLinkActive="router-link-active">
+            <i ng-font-set="material-icons" class="material-icons md-light">share</i>
+            <span class="nav-text">Connect</span>
+          </button>
+
+        </md-list-item>
+      </md-list>
+    </div>
   </div>
+</md-sidenav>
+  <router-outlet></router-outlet>
+</md-sidenav-container>
+<!-- Toolbar -->
 </div>
+
