@@ -1,5 +1,15 @@
-<div class="flex-layout">
-  <div class="education-title">
-    <h1 class="animated fadeInDown">Education</h1>
+<div class="flex-layout" fxLayout="column">
+  <div class="title" fxLayout="column" fxLayoutAlign="center">
+    <div class="education-title">
+      <h1 class="animated fadeInDown">Education</h1>
+    </div>
+  </div>
+  <div class="education-content" fxLayout="row" fxFlex>
+
+  </div>
+  <div class="to-connect" fxLayout="row" fxLayoutAlign="end">
+    <button md-raised-button [routerLink]="['/connect']" class="footer animated bounceInUp">Connect
+      <i ng-font-set="material-icons" class="material-icons md-36 md-light">keyboard_arrow_right</i>
+    </button>
   </div>
 </div>

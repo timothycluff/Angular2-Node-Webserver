@@ -1,9 +1,30 @@
-
+.flex-layout {
+  height: 90%;
+  overflow: hidden;
+}
 .technology-title {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .technology-title h1 {
     font-size: 45px;
     letter-spacing: 15px;
+}
+.to-education {
+  bottom: 0px;
+  margin-bottom: 25px;
+}
+.to-education button {
+  background-color: #212121;
+  font-size: 20px;
+  color: #ffffff;
+  height: 45px;
+  width: 175px;
+  border-left: 10px solid #9e9e9e;
+}
+.to-education button i {
+  color: #009688;
+}
+.to-education button:hover {
+  border-bottom: 4px solid #009688;
 }
