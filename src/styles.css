@@ -3,7 +3,6 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #bdbdbd;
 }
 .spacer {
   flex: 1 1 auto;
@@ -22,4 +21,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .title {
   background: rgb(158,158,158);
+}
+.mat-sidenav-content {
+  background-color: #cacaca;
 }
