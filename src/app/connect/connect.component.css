@@ -1,12 +1,14 @@
-.flex-layout {
-  height: 90%;
-  overflow: hidden;
-}
 .connect-title {
-    text-align: center;
-    margin-top: 35px;
+  background-color: #212121;
 }
-.connect-title h1 {
-    font-size: 45px;
-    letter-spacing: 15px;
+
+.title-content {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.title-content h1 {
+  font-size: 45px;
+  letter-spacing: 15px;
+  color: #ffffff;
 }
