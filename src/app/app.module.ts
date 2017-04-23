@@ -1,25 +1,27 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import {NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CommonModule} from '@angular/common';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {
-MdInputModule,
-MdCheckboxModule,
-MdMenuModule,
-MdSidenavModule,
-MdToolbarModule,
-MdListModule,
-MdCardModule,
-MdTabsModule,
-MdButtonModule,
-MdIconModule,
-MdProgressSpinnerModule,
-MdProgressBarModule,
-MdDialogModule,
-MdSnackBarModule
+  MdInputModule,
+  MdCheckboxModule,
+  MdMenuModule,
+  MdSidenavModule,
+  MdToolbarModule,
+  MdListModule,
+  MdCardModule,
+  MdTabsModule,
+  MdButtonModule,
+  MdIconModule,
+  MdProgressSpinnerModule,
+  MdProgressBarModule,
+  MdDialogModule,
+  MdSnackBarModule,
+  MdChipsModule,
+  MdChipList
 } from '@angular/material';
 
 import {HomeComponent} from './home/home.component';
@@ -64,12 +66,15 @@ import {AppRoutingModule} from './app-routing.module';
         MdProgressSpinnerModule,
         MdProgressBarModule,
         MdDialogModule,
+        MdChipsModule,
+        MdChipList,
         MdSnackBarModule,
         FlexLayoutModule,
         AppRoutingModule,
     ],
     providers: [
     ],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
     bootstrap: [AppComponent]
 })
 export class AppModule {

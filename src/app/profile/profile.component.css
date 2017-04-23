@@ -12,6 +12,7 @@
     color: #ffffff;
 }
 .to-experience button {
+  margin-top: 25px;
   background-color: #212121;
   font-size: 20px;
   color: #ffffff;
@@ -20,7 +21,7 @@
   border-left: 10px solid #9e9e9e;
   bottom: 0;
 }
-.to-experience button i {
+.to-experience button md-icon {
   color: #009688;
 }
 .to-experience button:hover {
@@ -40,6 +41,48 @@
 }
 md-card {
   margin-top: 25px;
+}
+.name-label,
+.birthday-label,
+.titles-label,
+.locations-label {
+  margin-right: 15px;
+}
+.name-label {
+  margin-top: 25px;
+}
+.birthday-label {
+  margin-top: 35px;
+}
+.titles-label {
+  margin-top: 50px;
+}
+.locations-label {
+  margin-top: 55px;
+}
+.name-divider,
+.birthday-divider,
+.titles-divider,
+.locations-divider {
+  height: 35px;
+  width: 2px;
+  background-color: #009688;
+  margin-right: 15px;
+}
+.name-divider {
+  margin-top: 20px;
+}
+.birthday-divider {
+  margin-top: 30px;
+}
+.titles-divider {
+  margin-top: 45px;
+}
+.locations-divider {
+  margin-top: 50px;
+}
+md-card.mat-card {
+  min-width: 375px;
 }
 
 

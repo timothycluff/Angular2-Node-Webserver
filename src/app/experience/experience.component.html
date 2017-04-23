@@ -1,4 +1,4 @@
-<div class="flex-layout">
+<div class="flex-layout" fxLayout="column">
   <!-- Title -->
   <div class="experience-title" fxLayout="row" fxLayoutAlign="center center" fxFill>
     <div class="title-content">
@@ -7,7 +7,62 @@
   </div>
 
   <!-- Content -->
-  <div class="experience-content" fxLayout="row" fxLayoutAlign="center center" fxFlex>
+  <div class="experience-content" fxLayout="row" fxLayoutAlign="center center" fxFill>
+    <md-card fxFlex="55">
+      <div fxLayout="column" fxFlex="85" class="animated bounceInLeft">
+        <!-- Header -->
+        <div fxLayout="column">
+          <div class="header-row" fxLayout="row">
+            <h1 class="fishbowl-title">FISHBOWL</h1>
+            <div class="header-divider"></div>
+            <div class="label-one">
+              <h4>Developer</h4>
+            </div>
+            <div class="label-two">
+              <h4>UI Architect</h4>
+            </div>
+            <div class="label-three">
+              <h4 fxFlex>UX Architect</h4><br/>
+            </div>
+          </div>
+          <div fxLayout="row">
+            <p class="fishbowl-date">2016 - Today</p>
+          </div>
+        </div>
+        <!-- Tags -->
+        <div fxLayout="row">
+          <div class="chip">Web App</div>
+          <div class="chip">Front End</div>
+          <div class="chip">Backend</div>
+        </div>
+        <!-- Tasks -->
+        <div fxLayout="column" class="task-list">
+          <div fxLayout="row">
+            <md-icon ng-font-set="material icons">chevron_right</md-icon>
+            Redesigned UI and UX with Angular's Material Design
+          </div>
+          <div fxLayout="row">
+            <md-icon ng-font-set="material icons">chevron_right</md-icon>
+            Optimized Our Web App for International Currency
+          </div>
+        </div>
+        <!-- Frameworks -->
+        <div fxLayout="row">
+          <h5 class="framework-item">AngularJS</h5>
+          <h5 class="framework-item">Html</h5>
+          <h5 class="framework-item">Java</h5>
+          <h5 class="framework-item">Postgres</h5>
+        </div>
+      </div>
 
+      <div fxLayout="column" fxFlex="25" fxLayoutAlign="center center" class="animated bounceInRight">
+        <md-card class="fishbowl-card"></md-card>
+      </div>
+    </md-card>
+  </div>
+  <div class="to-technology" fxLayout="row" fxLayoutAlign="center" fxFill>
+    <button class="animated bounceInUp" md-button [routerLink]="['/technology']">To Technology
+      <md-icon ng-font-set="material icons">chevron_right</md-icon>
+    </button>
   </div>
 </div>
