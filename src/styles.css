@@ -25,3 +25,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 .mat-sidenav-content {
   background-color: #cacaca;
 }
+.flex-layout {
+  overflow: hidden;
+}
+.card-margin {
+  margin-top: 25px;
+}

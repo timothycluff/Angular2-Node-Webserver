@@ -8,8 +8,8 @@
 
   <!-- Content -->
   <div class="experience-content" fxLayout="row" fxLayoutAlign="center center" fxFill>
-    <md-card fxFlex="55">
-      <div fxLayout="column" fxFlex="85" class="animated bounceInLeft">
+    <md-card class="" fxFlex="55" fxFlex.sm="90" fxFlex.xs="100">
+      <div fxLayout="column" fxFlex="85" fxFlex.xs="100" fxFlex.sm="100" class="animated bounceInLeft">
         <!-- Header -->
         <div fxLayout="column">
           <div class="header-row" fxLayout="row">
@@ -18,10 +18,10 @@
             <div class="label-one">
               <h4>Developer</h4>
             </div>
-            <div class="label-two">
+            <div class="label-two" fxHide.xs>
               <h4>UI Architect</h4>
             </div>
-            <div class="label-three">
+            <div class="label-three" fxHide.xs>
               <h4 fxFlex>UX Architect</h4><br/>
             </div>
           </div>
@@ -55,7 +55,8 @@
         </div>
       </div>
 
-      <div fxLayout="column" fxFlex="25" fxLayoutAlign="center center" class="animated bounceInRight">
+      <!-- Logo for large displays -->
+      <div fxLayout="column" fxFlex="25" fxLayoutAlign="center center" fxHide.xs fxHide.sm fxHide.md class="animated bounceInRight">
         <md-card class="fishbowl-card"></md-card>
       </div>
     </md-card>

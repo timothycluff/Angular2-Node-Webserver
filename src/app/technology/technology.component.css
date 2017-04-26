@@ -12,3 +12,25 @@
   letter-spacing: 15px;
   color: #ffffff;
 }
+h1 {
+  letter-spacing: 7px;
+}
+.card-row-height {
+  min-height: 215px;
+}
+.card-row-margin {
+  margin-top: 25px;
+}
+.tech-card {
+  margin-right: 35px;
+  border-bottom: 2px solid #009688;
+}
+md-card-title {
+  text-align: center;
+}
+.card-width {
+  min-width: 145px;
+}
+md-divider {
+  margin-top: 35px;
+}

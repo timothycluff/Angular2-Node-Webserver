@@ -19,9 +19,7 @@ import {
   MdProgressSpinnerModule,
   MdProgressBarModule,
   MdDialogModule,
-  MdSnackBarModule,
-  MdChipsModule,
-  MdChipList
+  MdSnackBarModule
 } from '@angular/material';
 
 import {HomeComponent} from './home/home.component';
@@ -66,8 +64,6 @@ import {AppRoutingModule} from './app-routing.module';
         MdProgressSpinnerModule,
         MdProgressBarModule,
         MdDialogModule,
-        MdChipsModule,
-        MdChipList,
         MdSnackBarModule,
         FlexLayoutModule,
         AppRoutingModule,

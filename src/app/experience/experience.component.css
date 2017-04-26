@@ -76,3 +76,13 @@ md-card.mat-card {
 .to-technology button:hover {
   border-bottom: 4px solid #009688;
 }
+
+@media (max-width: 970px) {
+  .fishbowl-background {
+    background: url(../../assets/fishbowl_logo.png) no-repeat;
+    background-size: 35%;
+  }
+  md-card {
+    background: #ffffff;
+  }
+}
