@@ -9,7 +9,7 @@
 
 .title-content h1 {
   font-size: 45px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   color: #ffffff;
 }
 h1 {
@@ -18,12 +18,16 @@ h1 {
 .card-row-height {
   min-height: 215px;
 }
+.language-row {
+  min-height: 215px;
+}
 .card-row-margin {
   margin-top: 25px;
 }
 .tech-card {
-  margin-right: 35px;
   border-bottom: 2px solid #009688;
+  min-height: 216px;
+  max-height: 216px;
 }
 md-card-title {
   text-align: center;
@@ -34,3 +38,8 @@ md-card-title {
 md-divider {
   margin-top: 35px;
 }
+
+@media (max-width: 970px) {
+
+}
+

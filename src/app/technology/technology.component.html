@@ -8,62 +8,117 @@
 
   <!-- Content -->
   <div class="technology-content" fxLayout="row" fxLayoutAlign="center center" fxFill>
-    <md-card class="card-margin" fxFlex="80" fxLayout="column" fxLayoutAlign="center center">
+    <md-card class="card-margin" fxFlex="80" fxFlex.sm="100" fxFlex.xs="100" fxLayout="column"
+             fxLayoutAlign="center center">
       <!-- Languages -->
       <div fxLayout="column">
+        <!-- Languages Header -->
         <div fxlayout="row" fxLayoutAlign="center center">
           <h1>Languages</h1>
         </div>
-        <div fxlayout="row" fxLayout.xs="column" class="card-row-height animated slideInUp" fxLayoutAlign="center center">
-          <!-- Javascript -->
-          <md-card fxFlex="10" class="tech-card card-width">
-            <img md-card-image src="../../assets/javaScript.png"/>
-            <md-card-title fxLayoutAlign="center center">
-              JavaScript
-            </md-card-title>
-          </md-card>
 
-          <!-- TypeScript -->
-          <md-card fxFlex="10" class="tech-card card-width">
-            <img md-card-image src="../../assets/typeScript.png"/>
-            <md-card-title>
-              TypeScript
-            </md-card-title>
-          </md-card>
+        <!-- Languages Cards -->
+        <div class="language-row animated slideInUp" fxlayout="row" fxLayoutAlign="center center"
+             fxLayout.xs="row" fxLayout.sm="column" fxLayout.md="column">
 
-          <!-- Html -->
-          <md-card fxFlex="10" class="tech-card card-width">
-            <img md-card-image src="../../assets/html.png"/>
-            <md-card-title fxLayoutAlign="center center">
-              Html
-            </md-card-title>
-          </md-card>
+          <!-- JS, TS, HTML Cards -->
+          <div class="language-row" fxFlex
+               fxLayout.xs="column" fxLayoutAlign.xs="center center"
+               fxLayout.sm="row" fxLayoutAlign.sm="space-between center"
+               fxLayout.md="row" fxLayoutAlign.md="space-around center"
+               fxLayout="row" fxLayoutAlign="space-around center">
+            <div fxFlex.xl="20" fxFlex.sm="5" fxHide.md fxHide.lg fxHide.xs><!-- Spacer --></div>
 
-          <!-- CSS -->
-          <md-card fxFlex="10" class="tech-card card-width">
-            <img md-card-image src="../../assets/css.png"/>
-            <md-card-title fxLayoutAlign="center center">
-              Css
-            </md-card-title>
-          </md-card>
+            <!-- Javascript Card -->
+            <div class="language-row" fxLayout.xs="row" fxLayoutAlign="center center" fxFlex>
+              <md-card fxFlex="10" class="tech-card card-width">
+                <img md-card-image src="../../assets/javaScript.png"/>
+                <md-card-title fxLayoutAlign="center center">
+                  JavaScript
+                </md-card-title>
+              </md-card>
+            </div>
 
-          <!-- Java -->
-          <md-card fxFlex="10" class="tech-card card-width">
-            <img md-card-image src="../../assets/java.png"/>
-            <md-card-title fxLayoutAlign="center center">
-              Java
-            </md-card-title>
-          </md-card>
+            <div class="card-row-margin" fxLayout.xs="row" fxHide.md fxhide.lg><!-- Spacer --></div>
+            <div fxFlex="10" fxHide.xs fxHide.sm fxHide.md><!-- Spacer --></div>
 
-          <!-- C# -->
-          <md-card fxFlex="10" class="tech-card card-width">
-            <img md-card-image src="../../assets/cSharp.png"/>
-            <md-card-title fxLayoutAlign="center center">
-              C#
-            </md-card-title>
-          </md-card>
+            <!-- TypeScript Card -->
+            <div class="language-row" fxLayout.xs="row" fxLayoutAlign="center center" fxFlex>
+              <md-card fxFlex="10" class="tech-card card-width">
+                <img md-card-image src="../../assets/typeScript.png"/>
+                <md-card-title>
+                  TypeScript
+                </md-card-title>
+              </md-card>
+            </div>
+
+            <div class="card-row-margin" fxLayout.xs="row" fxHide.md fxhide.lg><!-- Spacer --></div>
+            <div fxFlex="10" fxHide.xs fxHide.sm fxHide.md><!-- Spacer --></div>
+
+            <!-- Html Card -->
+            <div class="language-row" fxLayout.xs="row" fxLayoutAlign="center center" fxFlex>
+              <md-card fxFlex="10" class="tech-card card-width">
+                <img md-card-image src="../../assets/html.png"/>
+                <md-card-title fxLayoutAlign="center center">
+                  Html
+                </md-card-title>
+              </md-card>
+            </div>
+            <div fxFlex.sm="5" fxHide.xs fxHide.md fxHide.lg><!-- Spacer --></div>
+          </div>
+
+          <div class="card-row-margin" fxLayout.md="row" fxHide.lg><!-- Spacer --></div>
+          <div fxFlex.lg="5" fxFlex.xl="5" fxHide.md fxHide.sm fxHide.xs><!-- Spacer --></div>
+
+          <!-- Css, Java, C# Cards -->
+          <div class="language-row md-margin-top" fxFlex
+               fxLayout.xs="column" fxLayoutAlign.xs="center center"
+               fxLayout.sm="row" fxLayoutAlign.sm="space-between center"
+               fxLayout.md="row" fxLayoutAlign.md="space-around center"
+               fxLayout="row" fxLayoutAlign="space-around center">
+
+            <div fxFlex.sm="5" fxHide.lg fxHide.md fxHide.xs><!-- Spacer --></div>
+
+            <!-- CSS Card -->
+            <div class="language-row" fxLayout.xs="row" fxLayoutAlign="center center" fxFlex>
+              <md-card fxFlex="10" class="tech-card card-width">
+                <img md-card-image src="../../assets/css.png"/>
+                <md-card-title fxLayoutAlign="center center">
+                  Css
+                </md-card-title>
+              </md-card>
+            </div>
+
+            <div class="card-row-margin" fxLayout.xs="row" fxHide.sm fxHide.md fxhide.lg><!-- Spacer --></div>
+            <div fxFlex="10" fxHide.xs fxHide.sm fxHide.md><!-- Spacer --></div>
+
+            <!-- Java Card-->
+            <div class="language-row" fxLayout.xs="row" fxLayoutAlign="center center" fxFlex>
+              <md-card fxFlex="10" class="tech-card card-width">
+                <img md-card-image src="../../assets/java.png"/>
+                <md-card-title fxLayoutAlign="center center">
+                  Java
+                </md-card-title>
+              </md-card>
+            </div>
+
+            <div class="card-row-margin" fxLayout.xs="row" fxHide.sm fxHide.md fxhide.lg><!-- Spacer --></div>
+            <div fxFlex="10" fxHide.xs fxHide.sm fxHide.md><!-- Spacer --></div>
+
+            <!-- C# Card-->
+            <div class="language-row" fxLayout.xs="row" fxLayoutAlign="center center" fxFlex>
+              <md-card fxFlex="10" class="tech-card card-width">
+                <img md-card-image src="../../assets/cSharp.png"/>
+                <md-card-title fxLayoutAlign="center center">
+                  C#
+                </md-card-title>
+              </md-card>
+            </div>
+
+            <div fxFlex.sm="5" fxFlex.xl="20" fxHide.lg fxHide.md fxHide.xs><!-- Spacer --></div>
+          </div>
         </div>
-        <md-divider></md-divider>
+        <md-divider><!-- Divider --></md-divider>
       </div>
 
       <!-- Preprocessors -->
@@ -158,7 +213,7 @@
           <md-card fxFlex="10" class="tech-card card-width">
             <img md-card-image src="../../assets/visualStudio.png"/>
             <md-card-title fxLayoutAlign="center center">
-              Vis. Studio
+              V. Studio
             </md-card-title>
           </md-card>
 
@@ -215,7 +270,7 @@
           <md-card fxFlex="10" class="tech-card card-width">
             <img md-card-image src="../../assets/cinema4d.png"/>
             <md-card-title fxLayoutAlign="center center">
-              Cinema 4d
+              C4D
             </md-card-title>
           </md-card>
         </div>
