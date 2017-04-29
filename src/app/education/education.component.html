@@ -1,4 +1,4 @@
-<div class="flex-layout">
+<div class="flex-layout" fxLayout="column">
   <!-- Title -->
   <div class="education-title" fxLayout="row" fxLayoutAlign="center center" fxFill>
     <div class="title-content">
@@ -7,6 +7,91 @@
   </div>
 
   <!-- Content -->
-  <div class="education-content" fxLayout="row" fxLayoutAlign="center center" fxFlex>
+  <div class="experience-content" fxLayout="column">
+    <div class="row-margin row-height" fxLayout="row" fxLayoutAlign="center center" fxFlex>
+      <md-card class="animated slideInUp" fxFlex="50" fxFlex.md="65" fxFlex.sm="85" fxFlex.xs="100">
+        <md-toolbar>
+          <h4>Utah Valley University</h4>
+          <span fxFlex fxHide.xs></span>
+          <h6 fxHide.sm fxHide.xs>2016 - Present</h6>
+        </md-toolbar>
+        <md-card-content class="full-height uvu-border">
+          <div fxLayout="column" fxFlex="70" fxFlex.sm="100" fxFlex.xs="100" fxLayoutAlign="center center">
+            <md-list>
+              <md-list-item>
+                <md-icon class="list-item-icon" ng-font-set="material-icons">chevron_right</md-icon>
+                <h3>Computer Science Major</h3>
+              </md-list-item>
+              <md-list-item>
+                <md-icon class="list-item-icon" ng-font-set="material-icons">chevron_right</md-icon>
+                <h3>Studying to expand my knowledge in the Software Development Field</h3>
+              </md-list-item>
+            </md-list>
+          </div>
+          <div fxLayout="column" fxLayoutAlign="center center" fxFlex="30" fxHide.sm fxHide.xs>
+            <md-card class="logo-card uvu-img"></md-card>
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
+
+    <div class="row-margin row-height" fxLayout="row" fxLayoutAlign="center center" fxFlex>
+      <md-card class="animated slideInUp" fxFlex="50" fxFlex.md="65" fxFlex.sm="85" fxFlex.xs="100">
+        <md-toolbar>
+          <h4>Code To Success</h4>
+          <span fxFlex fxHide.xs></span>
+          <h6 fxHide.sm fxHide.xs>Summer of 2016</h6>
+        </md-toolbar>
+        <md-card-content class="full-height code-to-success-border">
+          <div fxLayout="column" fxFlex="70" fxFlex.sm="100" fxFlex.xs="100" fxLayoutAlign="center center">
+            <md-list>
+              <md-list-item>
+                <md-icon class="list-item-icon" ng-font-set="material-icons">chevron_right</md-icon>
+                <h3>Web programming bootcamp</h3>
+              </md-list-item>
+              <md-list-item>
+                <md-icon class="list-item-icon" ng-font-set="material-icons">chevron_right</md-icon>
+                <h3>Was introduced to languages such as HTML, CSS, and Javascript</h3>
+              </md-list-item>
+            </md-list>
+          </div>
+          <div fxLayout="column" fxLayoutAlign="center center" fxFlex="30" fxHide.sm fxHide.xs>
+            <md-card class="logo-card cts-img"></md-card>
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
+
+    <div class="row-margin row-height" fxLayout="row" fxLayoutAlign="center center" fxFlex>
+      <md-card class="animated slideInUp" fxFlex="50" fxFlex.md="65" fxFlex.sm="85" fxFlex.xs="100">
+        <md-toolbar>
+          <h4>Timpanogos High</h4>
+          <span fxFlex fxHide.xs></span>
+          <h6 fxHide.sm fxHide.xs>Class of 2016</h6>
+        </md-toolbar>
+        <md-card-content class="full-height timp-border">
+          <div fxLayout="column" fxFlex="70" fxFlex.sm="100" fxFlex.xs="100" fxLayoutAlign="center center">
+            <md-list>
+              <md-list-item>
+                <md-icon class="list-item-icon" ng-font-set="material-icons">chevron_right</md-icon>
+                <h3>AP Classes: AP Computer Science and AP Calc BC</h3>
+              </md-list-item>
+              <md-list-item>
+                <md-icon class="list-item-icon" ng-font-set="material-icons">chevron_right</md-icon>
+                <h3>Most of my classes focused on skills involving technology</h3>
+              </md-list-item>
+            </md-list>
+          </div>
+          <div fxLayout="column" fxLayoutAlign="center center" fxFlex="30" fxHide.sm fxHide.xs>
+            <md-card class="logo-card ths-img"></md-card>
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
+  </div>
+  <div class="to-connect" fxLayout="row" fxLayoutAlign="center" fxFill>
+    <button class="animated bounceInUp" md-button [routerLink]="['/connect']">To Connect
+      <md-icon ng-font-set="material icons">chevron_right</md-icon>
+    </button>
   </div>
 </div>
