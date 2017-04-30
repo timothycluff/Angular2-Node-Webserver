@@ -11,6 +11,9 @@ md-sidenav {
 .nav-header {
   border-bottom: 2px solid #ffffff;
 }
+.nav-header-text {
+  letter-spacing: 7px;
+}
 .nav-header h1 {
   color: #009688;
   margin-left: 15px;
@@ -24,4 +27,9 @@ md-toolbar {
 }
 .router-link-active {
   background-color: rgba(189,189,189,.6);
+}
+.nav-divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #9e9e9e;
 }

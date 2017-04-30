@@ -1,4 +1,4 @@
-<div class="flex-layout">
+<div class="flex-layout" fxLayout="column">
   <!-- Title -->
   <div class="connect-title" fxLayout="row" fxLayoutAlign="center center" fxFill>
     <div class="title-content">
@@ -7,7 +7,161 @@
   </div>
 
   <!-- Content -->
-  <div class="connect-content" fxLayout="row" fxLayoutAlign="center center" fxFlex>
+  <div class="connect-content" fxLayout="row" fxLayoutAlign="center center" fxFill>
+    <md-card class="card-margin" fxFlex="70" fxFlex.md="75" fxFlex.sm="85" fxFlex.xs="100" fxLayout="column">
+      <!-- Linkedin -->
+      <div class="animated bounceInDown" fxLayout="row" fxLayoutAlign="center center">
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+        <!-- Linkedin Image -->
+        <img class="animated bounceInLeft" src="../../assets/linkedin.png">
 
+        <div fxFlex="15" fxFlex.sm="20" fxHide.xs><!-- Spacer --></div>
+
+        <!-- Linkedin Title -->
+        <h1 fxFlex="10" fxHide.xs fxLayout="column" fxLayoutAlign="center center">Linkedin</h1>
+        <span fxFlex></span>
+
+        <!-- Linkedin Button -->
+        <button fxFlex="15" fxFlex.md="20" fxFlex.sm="35" fxFlex.xs="45" fxLayoutAlign="center center"
+                md-button md-raised-button
+                (click)="linkedinUrl()"
+                target="_blank" class="link-border animated bounceInRight">
+          <!-- Button Text -->
+          <div class="btn-text" fxFlex fxLayout="column" fxLayoutAlign="center center">
+            Linkedin
+          </div>
+          <!-- Button Icon -->
+          <div class="btn-text icon-only" fxLayout="column" fxLayoutAlign="center start">
+            <md-icon class="material-icons md-36">link</md-icon>
+          </div>
+        </button>
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+      </div>
+
+      <md-divider class="divider-margin"><!-- Divider --></md-divider>
+
+      <!-- Github -->
+      <div class="animated bounceInDown" fxLayout="row" fxLayoutAlign="center center">
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+        <!-- Github Image -->
+        <img class="animated bounceInLeft" src="../../assets/github.png">
+
+        <div fxFlex="15" fxFlex.sm="20" fxHide.xs><!-- Spacer --></div>
+
+        <!-- Github Title -->
+        <h1 fxFlex="10" fxHide.xs fxLayout="column" fxLayoutAlign="center center">Github</h1>
+        <span fxFlex></span>
+
+        <!-- Github Button -->
+        <button fxFlex="15" fxFlex.md="20" fxFlex.sm="35" fxFlex.xs="45" fxLayoutAlign="center center"
+                md-button md-raised-button
+                (click)="githubUrl()"
+                target="_blank" class="link-border animated bounceInRight">
+          <!-- Button Title -->
+          <div class="btn-text" fxFlex fxLayout="column" fxLayoutAlign="center center">
+            Github
+          </div>
+          <!-- Button Icon -->
+          <div class="btn-text icon-only" fxLayout="column" fxLayoutAlign="center start">
+            <md-icon class="material-icons md-36">link</md-icon>
+          </div>
+        </button>
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+      </div>
+
+      <md-divider class="divider-margin"><!-- Divider --></md-divider>
+
+      <!-- Twitter -->
+      <div class="animated bounceInDown" fxLayout="row" fxLayoutAlign="center center">
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+        <!-- Twitter Image -->
+        <img class="animated bounceInLeft" src="../../assets/twitter.png">
+
+        <div fxFlex="15" fxFlex.sm="20" fxHide.xs><!-- Spacer --></div>
+
+        <!-- Twitter Title -->
+        <h1 fxFlex="10" fxHide.xs fxLayout="column" fxLayoutAlign="center center">Twitter</h1>
+        <span fxFlex></span>
+
+        <!-- Twitter Button -->
+        <button fxFlex="15" fxFlex.md="20" fxFlex.sm="35" fxFlex.xs="45" fxLayoutAlign="center center"
+                md-button md-raised-button
+                (click)="twitterUrl()"
+                target="_blank" class="link-border animated bounceInRight">
+          <!-- Button Text -->
+          <div class="btn-text" fxFlex fxLayout="column" fxLayoutAlign="center center">
+            Twitter
+          </div>
+          <!-- Button Icon -->
+          <div class="btn-text icon-only" fxLayout="column" fxLayoutAlign="center start">
+            <md-icon class="material-icons md-36">link</md-icon>
+          </div>
+        </button>
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+      </div>
+
+      <md-divider class="divider-margin"><!-- Divider --></md-divider>
+
+      <!-- Instagram -->
+      <div class="animated bounceInDown" fxLayout="row" fxLayoutAlign="center center">
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+        <!-- Instagram Button -->
+        <img class="animated bounceInLeft" src="../../assets/instagram.png">
+
+        <div fxFlex="15" fxFlex.sm="20" fxHide.xs><!-- Spacer --></div>
+
+        <!-- Instagram Title -->
+        <h1 fxFlex="10" fxHide.xs fxLayout="column" fxLayoutAlign="center center">Instagram</h1>
+        <span fxFlex></span>
+
+        <!-- Instagram Button -->
+        <button fxFlex="15" fxFlex.md="20" fxFlex.sm="35" fxFlex.xs="45" fxLayoutAlign="center center"
+                md-button md-raised-button
+                (click)="instagramUrl()"
+                target="_blank" class="link-border animated bounceInRight">
+          <!-- Button Text -->
+          <div class="btn-text" fxFlex fxLayout="column" fxLayoutAlign="center center">
+            Instagram
+          </div>
+          <!-- Button Icon -->
+          <div class="btn-text icon-only" fxLayout="column" fxLayoutAlign="center start">
+            <md-icon class="material-icons md-36">link</md-icon>
+          </div>
+        </button>
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+      </div>
+
+      <md-divider class="divider-margin"><!-- Divider --></md-divider>
+
+      <!-- Facebook -->
+      <div class="animated bounceInDown" fxLayout="row" fxLayoutAlign="center center">
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+        <!-- Facebook Image -->
+        <img class="animated bounceInLeft" src="../../assets/facebook.png">
+
+        <div fxFlex="15" fxFlex.sm="20" fxHide.xs><!-- Spacer --></div>
+
+        <!-- Facebook Title -->
+        <h1 fxFlex="10" fxHide.xs fxLayout="column" fxLayoutAlign="center center">Facebook</h1>
+        <span fxFlex></span>
+
+        <!-- Facebook Button -->
+        <button fxFlex="15" fxFlex.md="20" fxFlex.sm="35" fxFlex.xs="45" fxLayoutAlign="center center"
+                md-button md-raised-button
+                (click)="facebookUrl()"
+                target="_blank" class="link-border animated bounceInRight">
+          <!-- Button Text -->
+          <div class="btn-text" fxFlex fxLayout="column" fxLayoutAlign="center center">
+            Facebook
+          </div>
+          <!-- Button Icon -->
+          <div class="btn-text icon-only" fxLayout="column" fxLayoutAlign="center start">
+            <md-icon class="material-icons md-36">link</md-icon>
+          </div>
+        </button>
+        <div fxFlex="15" fxFlex.md="5" fxHide.sm fxFlex.xs="5"><!-- Spacer --></div>
+      </div>
+    </md-card>
   </div>
+  <div class="divider-margin" style="height: 50px" fxLayout="row" fxLayoutAlign="center"></div>
 </div>

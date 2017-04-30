@@ -12,3 +12,41 @@
   letter-spacing: 15px;
   color: #ffffff;
 }
+.card-margin {
+  margin-top: 25px;
+}
+img {
+  max-height: 75px;
+  max-width: 75px;
+  min-height: 75px;
+  min-width: 75px;
+  border-radius: 50%;
+}
+h1 {
+  letter-spacing:4px;
+}
+.btn-text {
+  line-height: 27px;
+}
+button {
+  font-size: 15px;
+  background-color: #212121;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-feature-settings: "liga" 0;
+}
+button md-icon {
+  color: #009688;
+}
+.divider-margin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.icon-only {
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.link-border {
+  border-left: 3px solid #3369e8;
+}
