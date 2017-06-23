@@ -65,24 +65,8 @@ md-card {
   background-size: 100%;
 }
 .list-item-icon {
-  color: #009688;
+  color: #D50000;
 }
-.to-connect button {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-color: #212121;
-  font-size: 20px;
-  color: #ffffff;
-  height: 45px;
-  width: 185px;
-  border-left: 10px solid #9e9e9e;
-  bottom: 0;
-}
-.to-connect button md-icon {
-  color: #009688;
-}
-.to-connect button:hover {
-  border-bottom: 4px solid #009688;
-}
+
 
 

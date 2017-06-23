@@ -23,11 +23,40 @@ h1, h2, h3, h4, h5, h6, p, a {
   background: rgb(158,158,158);
 }
 .mat-sidenav-content {
-  background-color: #cacaca;
+  background-color: #424242;
 }
 .flex-layout {
   overflow: hidden;
 }
 .card-margin {
   margin-top: 25px;
+}
+.card-border {
+  border-bottom: 2px solid #D50000;
+}
+.mat-list-item-content {
+  padding: 0 !important;
+}
+.margin-top {
+  margin-top: 18px !important;
+}
+.margin-bottom {
+  margin-top: 18px !important;
+}
+.nav-button {
+  margin-bottom: 18px !important;
+}
+.nav-button button {
+  background-color: #212121;
+  font-size: 20px;
+  color: #ffffff;
+  height: 45px;
+  width: 195px;
+  border-left: 10px solid #9e9e9e;
+}
+.nav-button button md-icon {
+  color: #D50000;
+}
+.nav-button button:hover {
+  border-bottom: 4px solid #D50000;
 }

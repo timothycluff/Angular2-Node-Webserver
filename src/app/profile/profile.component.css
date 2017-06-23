@@ -11,29 +11,12 @@
     font-feature-settings: "liga" 0;
     color: #ffffff;
 }
-.to-experience button {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-color: #212121;
-  font-size: 20px;
-  color: #ffffff;
-  height: 45px;
-  width: 175px;
-  border-left: 10px solid #9e9e9e;
-  bottom: 0;
-}
-.to-experience button md-icon {
-  color: #009688;
-}
-.to-experience button:hover {
-  border-bottom: 4px solid #009688;
-}
 .profile-picture {
   background: url(../../assets/profile.jpg);
   border-radius: 90px;
   min-height: 170px;
   min-width: 170px;
-  border: 10px solid #009688;
+  border: 10px solid #D50000;
   background-size: 100%;
 }
 .profile-name {
@@ -67,7 +50,7 @@ md-card {
 .locations-divider {
   height: 35px;
   width: 2px;
-  background-color: #009688;
+  background-color: #D50000;
   margin-right: 15px;
 }
 .name-divider {

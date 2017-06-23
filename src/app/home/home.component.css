@@ -5,40 +5,77 @@
 .divider {
   width: 40%;
   height: 2px;
-  border: 1px solid #212121;
   margin-left: 30%;
   margin-right: 30%;
-  background-color: #212121;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #D50000;
+  opacity: 0.7;
 }
-.home-title {
+.name-text {
   text-align: center;
-  height: 250px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
-.home-title h2 {
+.name-text h2 {
   font-size: 45px;
   letter-spacing: 15px;
 }
-.home-title h4 {
+.name-text h4 {
   font-size: 35px;
   font-weight: 400;
   letter-spacing: 10px;
 }
-.to-profile {
+.pre-term {
+  font-family: Consolas;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  font-size: 1.3em;
+  width: 435px;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-right: 7px;
+}
+.terminal-container {
+  margin-top: 18px;
+  margin-left: 18px;
+}
+.terminal {
+  position: absolute;
+  font-family: Consolas;
+  background-color: rgba(0,0,0,.5);
+  text-decoration: none;
+  color: green;
+  font-size: 1.4em;
+  width: 235px;
+  text-align: left;
+}
+.cursor {
+  position: absolute;
+  top: 0;
   bottom: 0;
-  margin-bottom: 10px;
+  right: 0;
+  width: 0;
+  background-color: rgba(66,66,66,1);
+  box-sizing: border-box;
+  border-left: .5em solid;
+
+  -webkit-animation: typing 10s steps(19, end),
+                     blinking 1s step-end infinite;
+  animation: typing 10s steps(19, end),
+             blinking 1s step-end infinite;
 }
-.to-profile button {
-  background-color: #212121;
-  font-size: 20px;
-  color: #ffffff;
-  height: 45px;
-  width: 175px;
-  border-left: 10px solid #9e9e9e;
+@-webkit-keyframes typing {
+  from, to { width: 100%; }
+  25% { width: 0; }
+  50% { width: 0; }
+  75% { width: 100%; }
 }
-.to-profile button i {
-  color: #009688;
+@keyframes typing {
+  from { width: 100%; }
+  to { width: 0; }
 }
-.to-profile button:hover {
-  border-bottom: 4px solid #009688;
+@keyframes blinking {
+  from, to { border-color: transparent }
+  50% { border-color: green; }
 }

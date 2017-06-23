@@ -36,7 +36,8 @@ button {
   font-feature-settings: "liga" 0;
 }
 button md-icon {
-  color: #009688;
+  color: #D50000;
+  margin-left: 5px;
 }
 .divider-margin {
   margin-top: 15px;

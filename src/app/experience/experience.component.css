@@ -29,7 +29,7 @@
 .label-two,
 .label-three{
   margin-top: 25px;
-  border-left: 2px solid #009688;
+  border-left: 2px solid #D50000;
   height: 20px
 }
 .label-one h4,
@@ -38,7 +38,7 @@
   margin: 0 5px 0 5px ;
 }
 .chip {
-  border: 2px solid #009688;
+  border: 2px solid #D50000;
   border-radius: 5px;
   padding: 5px;
   margin-left: 5px;
@@ -60,23 +60,6 @@ md-card.mat-card {
   background-size: 75%;
   background-position: 20px 15px;
 }
-.to-technology button {
-  margin-top: 25px;
-  background-color: #212121;
-  font-size: 20px;
-  color: #ffffff;
-  height: 45px;
-  width: 185px;
-  border-left: 10px solid #9e9e9e;
-  bottom: 0;
-}
-.to-technology button md-icon {
-  color: #009688;
-}
-.to-technology button:hover {
-  border-bottom: 4px solid #009688;
-}
-
 @media (max-width: 970px) {
   .fishbowl-background {
     background: url(../../assets/fishbowl_logo.png) no-repeat;

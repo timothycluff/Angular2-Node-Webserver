@@ -8,7 +8,7 @@
 
   <!-- Content -->
   <div class="profile-content" fxLayout="row" fxLayoutAlign="center" fxFill>
-    <md-card fxFlex="50">
+    <md-card fxFlex="50" fxFlex.xs="100" fxFlex.sm="75" class="card-border">
       <md-card-header fxLayout="row" fxLayoutAlign="center center">
         <div md-card-avatar class="profile-picture"></div>
       </md-card-header>
@@ -49,7 +49,7 @@
     </md-card>
   </div>
 
-  <div class="to-experience" fxLayout="row" fxLayoutAlign="center" fxFill>
+  <div class="nav-button margin-top" fxLayout="row" fxLayoutAlign="center" fxFill>
     <button class="animated bounceInUp" md-button [routerLink]="['/experience']">To Experience
       <md-icon ng-font-set="material icons">chevron_right</md-icon>
     </button>
