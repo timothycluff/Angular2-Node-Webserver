@@ -13,60 +13,20 @@
 }
 .profile-picture {
   background: url(../../assets/profile.jpg);
-  border-radius: 90px;
-  min-height: 170px;
-  min-width: 170px;
+  background-repeat: no-repeat;
+  border-radius: 125px;
   border: 10px solid #D50000;
   background-size: 100%;
+  width: 200px;
+}
+.picture-padding {
+  padding-bottom: 170px;
 }
 .profile-name {
   font-size: 25px;
   letter-spacing: 5px;
 }
-md-card {
+.profile-card-margin {
   margin-top: 25px;
 }
-.name-label,
-.birthday-label,
-.titles-label,
-.locations-label {
-  margin-right: 15px;
-}
-.name-label {
-  margin-top: 25px;
-}
-.birthday-label {
-  margin-top: 35px;
-}
-.titles-label {
-  margin-top: 50px;
-}
-.locations-label {
-  margin-top: 55px;
-}
-.name-divider,
-.birthday-divider,
-.titles-divider,
-.locations-divider {
-  height: 35px;
-  width: 2px;
-  background-color: #D50000;
-  margin-right: 15px;
-}
-.name-divider {
-  margin-top: 20px;
-}
-.birthday-divider {
-  margin-top: 30px;
-}
-.titles-divider {
-  margin-top: 45px;
-}
-.locations-divider {
-  margin-top: 50px;
-}
-md-card.mat-card {
-  min-width: 375px;
-}
-
 

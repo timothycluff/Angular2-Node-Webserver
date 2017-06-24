@@ -7,45 +7,88 @@
   </div>
 
   <!-- Content -->
-  <div class="profile-content" fxLayout="row" fxLayoutAlign="center" fxFill>
-    <md-card fxFlex="50" fxFlex.xs="100" fxFlex.sm="75" class="card-border">
-      <md-card-header fxLayout="row" fxLayoutAlign="center center">
-        <div md-card-avatar class="profile-picture"></div>
-      </md-card-header>
-      <md-card-content fxLayout="row">
-        <div fxLayout="column" fxFlex="47">
-          <div fxLayout="row" fxLayoutAlign="end">
-            <h3 class="name-label animated slideInLeft">Name</h3>
-            <div class="name-divider"></div>
-          </div>
-          <div fxLayout="row" fxLayoutAlign="end">
-            <h3 class="birthday-label animated slideInLeft">Birthday</h3>
-            <div class="birthday-divider"></div>
-          </div>
-          <div fxLayout="row" fxLayoutAlign="end">
-            <h3 class="titles-label animated slideInLeft">Titles</h3>
-            <div class="titles-divider"></div>
-          </div>
-          <div fxLayout="row" fxLayoutAlign="end">
-            <h3 class="locations-label animated slideInLeft">Locations</h3>
-            <div class="locations-divider"></div>
-          </div>
+  <div class="profile-content" fxLayout="row" fxLayoutAlign="center" fxflexfill>
+    <md-card fxFlex="50" fxFlex.xs="100" fxFlex.sm="75" class="card-border profile-card-margin profile-card">
+      <div fxLayout="row" fxFlexFill>
+        <div fxLayout="column" fxFlex="40" fxLayoutAlign="center center">
+          <md-card class="profile-picture picture-padding">
+            <md-card-content>
+              <div md-card-avatar></div>
+            </md-card-content>
+          </md-card>
         </div>
-        <div fxLayout="column" fxFlex="53">
-          <div fxLayout="row" fxLayoutAlign="start">
-            <h1 class="animated slideInRight">Timothy Cluff</h1>
-          </div>
-          <div fxLayout="row" fxLayoutAlign="start">
-            <h1 class="animated slideInRight">July 9, 1998</h1>
-          </div>
-          <div fxLayout="row" fxLayoutAlign="start">
-            <h1 class="animated slideInRight">Software<br/>Developer</h1>
-          </div>
-          <div fxLayout="row" fxLayoutAlign="start">
-            <h1 class="animated slideInRight">Orem, Utah</h1>
-          </div>
+
+
+        <div fxLayout="column" fxFlex>
+          <md-card-content>
+            <md-list fxFlex>
+              <md-list-item>
+                <!-- label -->
+                <div fxLayout="column" fxFlex="30">
+                  <h3 class="animated slideInLeft right-align">Name</h3>
+                </div>
+
+                <!-- Separator Icon -->
+                <div fxLayout="column" fxFlex="15">
+                    <i class="material-icons md-36 red-color center-align">remove</i>
+                </div>
+
+                <div fxFlex="65" fxLayout="column">
+                  <h1 class="animated slideInLeft no-wrap left-align">Timothy Cluff</h1>
+                </div>
+              </md-list-item>
+
+              <md-list-item>
+                <!-- label -->
+                <div fxLayout="column" fxFlex="30">
+                  <h3 class="animated slideInLeft right-align">Birthday</h3>
+                </div>
+
+                <!-- Separator Icon -->
+                <div fxLayout="column" fxFlex="15">
+                  <i class="material-icons md-36 red-color center-align">remove</i>
+                </div>
+
+                <div fxFlex="65" fxLayout="column">
+                  <h1 class="animated slideInLeft no-wrap left-align">July 9, 1998</h1>
+                </div>
+              </md-list-item>
+
+              <md-list-item>
+                <!-- label -->
+                <div fxLayout="column" fxFlex="30">
+                  <h3 class="animated slideInLeft right-align">Titles</h3>
+                </div>
+
+                <!-- Separator Icon -->
+                <div fxLayout="column" fxFlex="15">
+                  <i class="material-icons md-36 red-color center-align">remove</i>
+                </div>
+
+                <div fxFlex="65" fxLayout="column">
+                  <h1 class="animated slideInLeft no-wrap left-align">Software Developer</h1>
+                </div>
+              </md-list-item>
+
+              <md-list-item>
+                <!-- label -->
+                <div fxLayout="column" fxFlex="30">
+                  <h3 class="animated slideInLeft right-align">Locations</h3>
+                </div>
+
+                <!-- Separator Icon -->
+                <div fxLayout="column" fxFlex="15">
+                  <i class="material-icons md-36 red-color center-align">remove</i>
+                </div>
+
+                <div fxFlex="65" fxLayout="column">
+                  <h1 class="animated slideInLeft no-wrap left-align">Orem, Utah</h1>
+                </div>
+              </md-list-item>
+            </md-list>
+          </md-card-content>
         </div>
-      </md-card-content>
+      </div>
     </md-card>
   </div>
 

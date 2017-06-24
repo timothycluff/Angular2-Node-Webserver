@@ -1,14 +1,21 @@
 <div class="flex-layout" fxLayout="column">
   <!-- Title -->
   <div class="home-title">
-    <div fxlayout="column" class="terminal-container">
-      <div fxlayout="row" fxflexfill class="pre-term">
-        timothy.cluff@Portfolio ~/development
-      </div>
-      <div fxlayout="row" fxflexfill class="terminal">$:Portfolio deploy<span class="cursor"></span>
-      </div>
+    <div fxlayout="row">
+      <md-card class="terminal-container animated slideInUp" fxFlex="25">
+        <md-card-content>
+          <div fxLayout="column">
+            <div fxLayout="row" fxflexfill class="pre-term">
+              timothy.cluff@Web ~/development
+            </div>
+            <div fxLayout="row" fxflexfill class="terminal">$:Portfolio deploy<span class="cursor"></span>
+            </div>
+          </div>
+          <div fxLayout="column" fxflexfill></div>
+        </md-card-content>
+      </md-card>
     </div>
-    <div fxlayout="column" fxlayoutalign="center center" class="name-text">
+    <div fxlayout="column" fxlayoutalign="center center" class="name-text" fxflexfill>
       <h2 class="animated fadeInDown" fxLayout="row" fxLayoutAlign="center" fxFlexFill>Timothy Cluff</h2>
       <div class="divider"></div>
       <h4 fxLayout="row" fxFlexFill class="animated bounceInRight" fxLayoutAlign="center">Software Developer</h4>

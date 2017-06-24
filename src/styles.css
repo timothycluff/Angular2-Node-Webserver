@@ -60,3 +60,18 @@ h1, h2, h3, h4, h5, h6, p, a {
 .nav-button button:hover {
   border-bottom: 4px solid #D50000;
 }
+.no-wrap {
+  white-space: nowrap;
+}
+.red-color {
+  color: #D50000;
+}
+.left-align {
+  text-align: left;
+}
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
